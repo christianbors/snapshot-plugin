@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+[#foreach recipient in doc.calendar.month]
+<table border="1">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>${month}</td>
+    <td>${cost}</td>
+  </tr>
+</table>
+[/#foreach]
+</body>
+</html>

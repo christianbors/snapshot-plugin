@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+AutoUpdate-Essential-Module: true
+OpenIDE-Module-Localizing-Bundle: org/ssanalytics/snapshotplugin/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: ${gephi.modules.specification.version}
